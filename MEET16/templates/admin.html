@@ -1,0 +1,14 @@
+{% extends 'layout_admin.html' %}
+
+{% block konten %}
+
+    <h1>INPUT DATA REDBULL</h1>
+    <form action="/simpan" method="post" >
+        <input type="text" name="rasa" placeholder="Enter rasa" ><br>
+        <input type="rasa" name="tingkat" min="10" max="12" placeholder="Enter tingkat" ><br>
+        <textarea name="alamat" placeholder="Enter alamat" ></textarea><br>
+        <button type="submit">KIRIM</button>
+    </form>
+
+
+{% endblock %}

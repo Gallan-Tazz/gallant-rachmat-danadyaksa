@@ -1,0 +1,15 @@
+{% extends 'layout.html' %}
+{% block konten %}
+<h1>HOME - LOGIN</h1>
+<form action="/aksi_login" method="post">
+    <label for="flavorness">FLAVOR: </label>
+    <input type="text" id="flavorness" name="flavor" >
+    <label for="pass">PASSWORD: </label>
+  <input type="password" id="pass" name="password">
+    <button type="submit">LOGIN</button>
+</form>
+
+<br>
+<i>Flavor : admin</i><br>
+<i>Flavor : 4321</i>
+{% endblock %}
